@@ -13,14 +13,15 @@ body {
 h1 {
     text-align: center;
     font-size: 1.75em;
+    padding-bottom: 30px;
+}
+
+div.container div {
+    padding: 10px;
 }
 
 div.container section {
     border: 1px solid black;
-    margin-left: 10px;
-    //margin-right: auto;
-    margin-bottom: 20px;
-    width: 90%;
     background-color: #c0c0c0;
 }
 
