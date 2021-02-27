@@ -13,10 +13,10 @@ body {
 h1 {
     text-align: center;
     font-size: 1.75em;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
-div.container div {
+div.container div.item {
     padding: 10px;
 }
 
@@ -67,8 +67,9 @@ div.container div:nth-child(3) section div.item-title {
         width: 50%;
         float: left;
     }
+    /* as per the instructions, the third menu item takes up
+       the entire row */
     div.container .col-tablet:nth-child(3) {
-        clear: both;
         width: 100%;
     }
 }
@@ -76,6 +77,13 @@ div.container div:nth-child(3) section div.item-title {
 @media (max-width: 767px) {
     div.container .col-phone {
         width: 100%;
+    }
+    /* for the phone version, the left/right margins in the mockup
+       seem to be bigger */
+    body {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
