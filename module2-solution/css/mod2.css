@@ -75,10 +75,10 @@ div.container div:nth-child(3) section div.item-title {
 }
 
 @media (max-width: 767px) {
-    div.container .col-phone {
+    div.container .col-mobile {
         width: 100%;
     }
-    /* for the phone version, the left/right margins in the mockup
+    /* for the mobile version, the left/right margins in the mockup
        seem to be bigger */
     body {
         width: 85%;
