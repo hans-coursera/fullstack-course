@@ -15,6 +15,12 @@ body {
 h1 {
     margin: 0;  /* override Bootstrap margins for h1 */
     padding: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 
 .navbar h1.navbar-brand {
@@ -26,11 +32,6 @@ h1 {
     font-weight: 600;
     padding-top: 10px;
     padding-bottom: 20px;
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 1.5em;
 }
 
 div.menu-item {
@@ -46,4 +47,23 @@ h3.menu-item-title {
     font-weight: 600;
     font-size: 1.4em;
     margin-top: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    background-color: yellow;
+    border-color: black;
+    color: black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: orange;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+#nav-list a {
+    color: black;
+}
+#nav-list a:hover {
+    background-color: orange;
 }
