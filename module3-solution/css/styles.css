@@ -71,8 +71,15 @@ h3.menu-item-title {
     color: white;
 }
 
+.navbar-nav {
+    /* remove weird padding on top and bottom */
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 @media (max-width: 767px) {
+    /* judging by the mockup, the text in the navbar does not need to align
+       with the text in the item below, for mobile */
     .content .container {
         margin-left: 40px;
         margin-right: 40px;
