@@ -71,3 +71,10 @@ h3.menu-item-title {
     color: white;
 }
 
+
+@media (max-width: 767px) {
+    .content .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
